@@ -84,3 +84,6 @@ const updateBlog = async (req, res) => {
 
   return res.status(200).json(currentBlogToUpdate);
 };
+
+
+module.exports = { fetchListOfBlogs, updateBlog, deleteBlog, addNewBlog }
