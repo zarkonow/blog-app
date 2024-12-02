@@ -4,8 +4,7 @@ mongoose.set("strictQuery", false);
 
 mongoose
   .connect(
-    "mongodb+srv://zarkonov:JObPonHc4ETylxUA@cluster0.tjal3.mongodb.net/"
+    "mongodb+srv://sangammukherjee2022:E6SKnkGkMdkyjJIM@cluster0.uulyk4o.mongodb.net/"
   )
-
   .then(() => console.log("Connected mongo db"))
   .catch((e) => console.log(e));

@@ -1,8 +1,7 @@
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
-const mongoos = require("mongoose");
-const Scheme = mongoos.Scheme;
-
-const blogScheme = new Scheme({
+const blogSchema = new Schema({
   title: {
     type: String,
   },
@@ -15,5 +14,4 @@ const blogScheme = new Scheme({
   },
 });
 
-
-module.exports = mongoose.model('Blog', blogScheme)
+module.exports = mongoose.model("Blog", blogSchema);
